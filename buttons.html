@@ -1,49 +1,75 @@
 <style>
 
-.started{
-    background-color: purple;
-    color: white;
-    border-color: purple;
+a{
+    transition: color 0.15;
+    text-decoration-line: underline;
+}
+a:hover{
+    color: rgb(239, 178, 46);
+}
+
+
+.text{
+    text-transform: capitalize;
+    text-decoration: solid;
+    font-weight:bold;
+}
+
+
+.price{
+    color: green;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.text2{
+    font-size: smaller;
+    font-style: normal;
+}
+
+.atc{
+    color: black;
+    background-color: yellow;
+    border-radius: 50px;
     border-style: solid;
-    border-radius: 5px;
-    margin: 7px;
-    padding: 7px;
-    cursor: pointer;
-    transition: background-color 0.15s , color 0.15s;
-}
-.started:hover{
-    background-color: white;
-    color: purple;
+    border: none;
+    height: 25px;
+    width: 100px;
+    margin-right: 5px;
+    transition: opacity 0.15s;
 }
 
-.download
-{
-    background-color: white;
-    color: purple;
-    padding: 7px;
-    cursor: pointer;
-    border-radius: 5px;
-    border-color: purple;
+.atc:hover{
+    opacity: 0.75;
+}
+
+.buy{
+    color: black;
+    background-color: orange;
+    border-radius: 50px;
     border-style: solid;
-    transition: background-color 0.15s , color 0.15s;
+    border: none;
+    height: 25px;
+    width: 100px;
+    transition: opacity 0.15s;
+}
+
+.buy:hover{
+    opacity: 0.75;
 }
 
 
-
-.download:hover{
-    background-color: purple;
-    color: white;
-}
 
 </style>
 
 
 
+<a>Back to Amazon</a>
+<p></p>
 
-
-<button class="started">
-    Get started
-</button>
-<button class="download">
-    Download
-</button>
+<p class="text" style="bold">Nike Black Running Shoes</p>
+<p></p>
+<p class="price">$39 -  in stock</p>
+<p class="text2">Free delivery tomorrow</p>
+<button class="atc">Add to Cart</button>
+<button class="buy">Buy now</button>
