@@ -1,21 +1,39 @@
 <style>
 
-.signup{
-    background-color: green;
+.started{
+    background-color: purple;
     color: white;
-    border: none;
+    border-color: purple;
+    border-style: solid;
     border-radius: 5px;
     margin: 7px;
-    padding: 10px;
+    padding: 7px;
     cursor: pointer;
-    transition: box-shadow 0.15s;
+    transition: background-color 0.15s , color 0.15s;
 }
-.signup:hover{
-    box-shadow: 5px 5px 10px rgba(0,0 ,0 ,0.075);
+.started:hover{
+    background-color: white;
+    color: purple;
+}
+
+.download
+{
+    background-color: white;
+    color: purple;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: purple;
+    border-style: solid;
+    transition: background-color 0.15s , color 0.15s;
 }
 
 
 
+.download:hover{
+    background-color: purple;
+    color: white;
+}
 
 </style>
 
@@ -23,12 +41,9 @@
 
 
 
-
-
-
-
-
-
-<button class="signup">
-    Sign up
+<button class="started">
+    Get started
+</button>
+<button class="download">
+    Download
 </button>
